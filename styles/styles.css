@@ -1,58 +1,61 @@
 body{
-    /* background-color: rgb(9, 8, 9)!important; */
-    display: grid;
-    color: rgb(9, 183, 70);
+    background-color: black;
+    color: rgb(230, 242, 244);
     background-image: url(https://images.unsplash.com/photo-1563119077-909657b24b19?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat: repeat-y;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.nav{
-    position: static;
+body .About{
+    width: 2400px;
+    color: aqua;
+}
+.navigation
+{
     background-color: aqua;
-    color: greenyellow;
-    text-align: end;
-    padding: 10px 15px;
-    text-decoration-line: none;
-    
-
 }
-li{
+
+li {
+    padding-top: 10px;
     display: inline-block;
 }
 
+li a {
+    display: block;
+    padding: 40px;
+}
+
 .video{
-    /* float: right; */
     height: 30%;
-    /* padding-top: 200px; */
-    /* padding-right: 50px; */
     border: solid auto;
+}
+
+.flex{
+    display: flex;
+    color: aqua;
+    padding-top: 20px;
+    
+    
+
+}
+
+.skills{
+    padding: 100px;
 }
 
 form{
     /* border: solid 2px; */
     width: 700px;
     height: 350px;
-    color: rgb(13, 187, 45);
+    color: rgb(234, 220, 213);
+    font-style: Roboto;
 }
 
-.service{
-    border: black;
-    display: inline-block;
-}
-
-.offer{
-    display: inline;
-}
-
-.skill{
-    display: inline-block;
-}
 .enigma{
     float: right;
-    margin-left: auto;
-    margin-right: auto;
     width: 800px;
-    height: 1300px;
+    height: 1000px;
+    background-color: black;
 }
 
 .footer{
@@ -60,7 +63,7 @@ form{
     color: azure;
     border: solid 2px;
     padding-bottom: 1%;
-    color: green;
+    color: rgb(129, 234, 227);
     background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D);
     
     
@@ -72,11 +75,11 @@ form{
 
 
 .arrange{
-    border: solid red 1px;
+    border: solid rgb(0, 255, 242) 1px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     width: 32%;
     height: 400px;
-    color: chartreuse;
+    color: rgb(125, 215, 242);
 }

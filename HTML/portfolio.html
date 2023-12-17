@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/styles.css">
 </head>
     <!-- designing the navigation -->
-    <nav class="nav">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">ABout</a></li>
-            <li><a href="#contact">Resume</a></li>
-            <li><a href="#about">Contact</a></li>
-          </ul>  
-    </nav>
-
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="#contact"><h1>home</h1></a></li>
+                <li><a href="#contact"><h1>About</h1></a></li>
+                <li><a href="#contact"><h1>Work</h1></a></li>
+                <li><a href="#contact"><h1>Contact</h1></a></li>
+            </ul>  
+        </nav>
+    </div>
 <body>
     <main class="About">
                 <h1><strong>Chijioke Patrick</strong></h1>
@@ -35,23 +36,31 @@
             </div>
 
                 <h2> <Strong>Work Experience</Strong></h2>
-                <a href="https://www.linkedin.com/in/chijioke-ezeamuzie-b20498149/" target="_blank"><img src="/Media/linkedin.png" width="50" height="40" alt=""></a><br><br>
+                <a href="https://www.linkedin.com/in/chijioke-ezeamuzie-b20498149/" target="_blank"><img src="/Media/linkedin.png" width="50" height="40" alt=""></a>
         </article>
-
-        <section class="service">
-            <h2 class="skill">Microsoft365 services</h2>
-                <h4><li>Provided detailed technical documentation for case troubleshooting or management</li></h4>
-                <h4><li>Assisting Microsoft client around the globe to resolve office365 tickets.</li></h4>
-                <h4><li>Serve as a point of contact for other team members and assist in the resolution of high-level technical difficulties.</li></h4><br>
         
-            <h2 class="skill">fullStack Developer</h2>
-                <h4><li>Frontend</li></h4>
-                <h4><li>Backend</li></h4>
-                <h4><li>Database</li></h4><br>
-            <h2 class="skill">Cloud Administrator</h2>
-                <h4><li>Amazon web services</li></h4>
-                <h4><li>Microsoft Azure</li></h4>
-                <h4><li>Google Cloud professional</li></h4>
+        <section class="flex">
+            <div class="skills">
+                    <h2>Microsoft365 services</h2>
+                    <h4><li>Provided detailed technical documentation for case troubleshooting or management</li></h4>
+                    <h4><li>Assisting Microsoft client around the globe to resolve office365 tickets.</li></h4>
+                    <h4><li>Serve as a point of contact for other team members and assist in the resolution of high-level technical difficulties.</li></h4><br>
+            </div>
+        
+            <div class="skills">
+                    <h2>fullStack Developer</h2>
+                    <h4>Frontend</h4>
+                    <h4>Backend</h4>
+                    <h4>Database</h4>
+            </div>
+
+            <div class="skills">
+                    <h2>Cloud Administrator</h2>
+                    <h4><li>Amazon web services</li></h4>
+                    <h4><li>Microsoft Azure</li></h4>
+                    <h4><li>Google Cloud professional</li></h4>
+            </div>
+
         </section><br><br>
 
         <div class="contactme">
